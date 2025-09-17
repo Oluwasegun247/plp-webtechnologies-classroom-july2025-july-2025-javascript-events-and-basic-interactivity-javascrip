@@ -1,0 +1,38 @@
+/* ===== Basic Styling ===== */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f6f9;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #3498db;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.dark-mode {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
